@@ -1,0 +1,12 @@
+namespace: knpc
+
+resources:
+- apiservice
+- webfrontend
+- namespace.yaml
+- dashboard.yaml
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+

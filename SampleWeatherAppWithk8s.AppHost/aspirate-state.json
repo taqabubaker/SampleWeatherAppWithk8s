@@ -1,0 +1,21 @@
+{
+  "projectPath": ".",
+  "outputPath": "aspirate-output",
+  "namespace": "knpc",
+  "containerImageTags": [
+    "latest"
+  ],
+  "imagePullPolicy": "IfNotPresent",
+  "containerBuilder": "docker",
+  "outputFormat": "kustomize",
+  "skipFinalKustomizeGeneration": false,
+  "privateRegistryEmail": "aspir8@aka.ms",
+  "includeDashboard": true,
+  "useCustomNamespace": true,
+  "secrets": {
+    "salt": "m4oiSYaAueB9t4z8",
+    "hash": "64t\u002BAxFqZhy9ZlQYoorN3V6MfRsoZjp0tItGoWQVUUI=",
+    "secrets": {}
+  },
+  "processAllComponents": true
+}
